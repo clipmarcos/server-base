@@ -1,7 +1,7 @@
 import { response, request } from 'express'
 
 export const getUsers = (req = request, res = response) => {
-  res.json({ message: 'GET api Controlador List' })
+  res.json({ message: 'GET api Controlador List actualizado' })
 }
 
 export const editUser = (req, res = response) => {
